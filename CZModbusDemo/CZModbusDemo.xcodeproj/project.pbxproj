@@ -13,6 +13,7 @@
 		6F72216F1F36449900203098 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F72216D1F36449900203098 /* Main.storyboard */; };
 		6F7221711F36449900203098 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F7221701F36449900203098 /* Assets.xcassets */; };
 		6F7221741F36449900203098 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F7221721F36449900203098 /* LaunchScreen.storyboard */; };
+		6F72217E1F3644FE00203098 /* CZModbus.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F72217D1F3644FE00203098 /* CZModbus.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		6F7221701F36449900203098 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6F7221731F36449900203098 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6F7221751F36449900203098 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F72217C1F3644FE00203098 /* CZModbus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CZModbus.h; sourceTree = "<group>"; };
+		6F72217D1F3644FE00203098 /* CZModbus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CZModbus.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +46,7 @@
 			isa = PBXGroup;
 			children = (
 				6F7221631F36449900203098 /* CZModbusDemo */,
+				6F72217B1F3644FE00203098 /* CZModbus */,
 				6F7221621F36449900203098 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -77,6 +81,15 @@
 				6F7221651F36449900203098 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6F72217B1F3644FE00203098 /* CZModbus */ = {
+			isa = PBXGroup;
+			children = (
+				6F72217C1F3644FE00203098 /* CZModbus.h */,
+				6F72217D1F3644FE00203098 /* CZModbus.m */,
+			);
+			path = CZModbus;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,6 +163,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F72217E1F3644FE00203098 /* CZModbus.m in Sources */,
 				6F72216C1F36449900203098 /* ViewController.m in Sources */,
 				6F7221691F36449900203098 /* AppDelegate.m in Sources */,
 				6F7221661F36449900203098 /* main.m in Sources */,
